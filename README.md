@@ -1,16 +1,27 @@
 # ComfyUI-PainterFLF2V  
-### 让首尾帧视频“动”得更自然、更干净  
-*Make first-last-frame videos move smoother & cleaner*
+### 增强视频动态，让首尾帧丝滑过渡！让首尾帧视频“动”得更自然、更干净  
+*Enhance video dynamics for smooth transitions between the first and last frames！Make first-last-frame videos move smoother & cleaner*
 
 ---
 
 ## 🎬 简介 | Intro
-PainterFLF2V 是对官方 WAN 首尾帧节点的“动态增强补丁”。  
+PainterFLF2V 是对官方 WAN 首尾帧节点的“动态增强升级版”，你可以调节Motion Amplitude的数值，自定义视频的动态增强幅度。 
 通过**反向结构斥力**算法，一键消除慢动作与重影，同时保护颜色不失真。  
-PainterFLF2V is a plug-and-play upgrade for WAN's first-last-frame node.  
+PainterFLF2V is the "dynamically enhanced upgraded version" of the official WAN first-last frame node. You can adjust the value of Motion Amplitude to customize the dynamic enhancement intensity of the video.  
 Using **inverse structural repulsion**, it erases ghosting & sluggish motion while keeping colors intact.
 
 ---
+
+<table>
+  <tr>
+    <td><img src="image-6/1.gif" alt="图1" width="400"></td>
+    <td><img src="image-6/2.gif" alt="图2" width="400"></td>
+  </tr>
+  <tr>
+    <td>motion_amplitude=1.3</td>
+    <td>motion_amplitude=1.3</td>
+  </tr>
+</table>
 
 ## ✨ 核心亮点 | Highlights
 | 功能 | 效果 | Feature | Result |
@@ -25,11 +36,12 @@ Using **inverse structural repulsion**, it erases ghosting & sluggish motion whi
 ## 🚀 快速开始 | Quick Start
 1. 克隆到 `custom_nodes`  
    ```bash
-   git clone https://github.com/princepainter/Comfyui-PainterFLF2V ComfyUI/custom_nodes/Comfyui-PainterFLF2V
+   git clone https://github.com/princepainter/Comfyui-PainterFLF2V.git
 2. 重启 ComfyUI  
    Restart ComfyUI
 3. 工作流中把 `PainterFLF2V` 替换掉原生首尾帧节点即可  
    Drop `PainterFLF2V` in place of the stock first-last-frame node.
+   ![替换原节点](image-6/QQ20251120153818.jpg)
 
 ---
 
@@ -37,8 +49,6 @@ Using **inverse structural repulsion**, it erases ghosting & sluggish motion whi
 | 参数 | 范围 | 推荐 | Tips |
 |---|---|---|---|
 | motion_amplitude | 1.0 – 2.0 | **1.3** | 1.0=原版，1.3=日常，2.0=极客测试 |
-| width/height | 16-4096 | 832×480 | 按需求保持 16 的倍数 |
-| length | 1-4096 | 81 | 越大越吃显存 |
 
 ---
 
