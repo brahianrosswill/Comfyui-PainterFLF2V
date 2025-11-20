@@ -27,7 +27,7 @@ Using **inverse structural repulsion**, it erases ghosting & sluggish motion whi
 | 功能 | 效果 | Feature | Result |
 |---|---|---|---|
 | 动态增强幅度 | 1.0→2.0 无级滑杆 | Motion Amplitude | 1.0 (stock) – 2.0 (max boost) |
-| 推荐“日常”值 | **1.3** 动静平衡 | Sweet-spot | **1.3** for natural yet punchy moves |
+| 推荐“日常”值 | **1.2~1.3** 动静平衡 | Sweet-spot | **1.2~1.3** for natural yet punchy moves |
 | 颜色锁定 | 零偏移 | Color Lock | Zero hue shift |
 | 4× 去重影 | 中间帧更清晰 | Ghost Kill | 4× high-freq diff amplification |
 
@@ -48,7 +48,7 @@ Using **inverse structural repulsion**, it erases ghosting & sluggish motion whi
 ## 🎛️ 参数速查 | Params Cheat-Sheet
 | 参数 | 范围 | 推荐 | Tips |
 |---|---|---|---|
-| motion_amplitude | 1.0 – 2.0 | **1.3** | 1.0=原版，1.3=日常，2.0=极客测试 |
+| motion_amplitude | 1.0 – 2.0 | **1.2~1.3** | 1.0=原版，1.2~1.3=日常，1.5=极客测试 |
 
 ---
 
