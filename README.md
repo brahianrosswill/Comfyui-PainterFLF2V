@@ -1,4 +1,5 @@
 # ComfyUI-PainterFLF2V  
+### 此节点由抖音博主：绘画小子 制作。
 ### 增强视频动态，让首尾帧丝滑过渡！让首尾帧视频“动”得更自然、更干净！现在你可以用PainterFLF2V来制作顺滑的首尾帧视频，就像这样：
 *Enhance video dynamics for smooth transitions between the first and last frames！Make first-last-frame videos move smoother & cleaner，Now you can use PainterFLF2V to create smooth first-and-last-frame videos, just like this:*
 
